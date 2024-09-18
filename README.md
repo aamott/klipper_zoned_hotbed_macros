@@ -40,3 +40,10 @@ Also, sharing zoned hotbed designs and PCBs is hugely helpful. Not many people h
 - [ ] Custom grids (ex. a large build plate and smaller zones to extend the work area.)
 - [ ] 3D Model of my zoned hotbed design
 - [ ] 100x100 PCB design for manufacturing (Help?)
+- [ ] When we've heated one zone and want to heat another: Prioritize new full-temp zones, take the greatest temperature of warm zones/already heated zones. 
+
+# Q&A
+Q: What if I try to heat a zone partially outside the bed? 
+A: It will heat the zone that is inside. This way, if you have a model that hangs over the side of the bed (like a statue) it won't fail to heat. 
+Q: What if I try to heat a zone *entirely* outside the bed?
+A: It will give an error letting you know nothing is being heated.
