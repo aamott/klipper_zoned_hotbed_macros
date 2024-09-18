@@ -1,5 +1,7 @@
 # klipper_zoned_hotbed_macros
-Klipper macros to support 3D Printers with Zoned Hotbeds
+Klipper macros to support 3D Printers with Zoned Hotbeds. 
+
+If you just want to help with the code but don't have a zoned hotbed, the macro will work with a normal heated bed! *A 1x1 grid* 😉 *Just set variable_zone_0_is_heater_bed to True and num_zones_x/y to 1.* 
 
 # How to Install
 1. Configure each heater used in your hotbed as a `[generic_heater zone<id>]`. Each zone's name should be the same except for a number at the end (`zone0, zone1, zone2...`). Start with 0. Default is `zone` but you can change this with `variable_base_zone_name`.  
